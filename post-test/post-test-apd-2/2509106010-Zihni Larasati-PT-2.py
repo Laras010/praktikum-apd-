@@ -1,15 +1,13 @@
-# Dilarang menggunakan if-else, menggunakan list untuk status
-# Input dari user
 nama = input("Masukkan nama pasien: ")
 tinggi = float(input("Masukkan tinggi badan (cm): "))
 berat = float(input("Masukkan berat badan (kg): "))
-# Rumus
+
 beratIdeal = tinggi - 100
 isKelebihan = berat > beratIdeal
-# List untuk status
+
 statusList = ["Normal", "Kelebihan Berat Badan"]
 status = statusList[int(isKelebihan)]
-# Output dalam format tabel
+
 print("-" * 60)
 print(f"| {'HASIL CEK BERAT BADAN':^56} |")
 print("-" * 60)
