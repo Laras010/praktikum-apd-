@@ -1,6 +1,5 @@
 import os
 
-# Data akun dan tanaman disimpan dalam dictionary
 akun = {
     "admin": {"password": "andi laras nee", "role": "admin"},
     "AADPA": {"password": "Andi Ahmad dzaky P A", "role": "user"},
