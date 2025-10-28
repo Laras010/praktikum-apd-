@@ -17,7 +17,6 @@ tanaman_dict = {
 
 login_sukses = False  
 
-#PROSEDUR TANPA RETURN
 def tampilkan_data():
     """Menampilkan semua data tanaman"""
     os.system('cls' if os.name == 'nt' else 'clear')
